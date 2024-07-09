@@ -1,4 +1,33 @@
 body {
     background-color:  #151C21;
+}
+*{
+    list-style: none;
+    text-decoration: none;
     color: white;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242222;
+    margin: 30px 60px 0 60px;
+    padding: 0 30px 0 30px;
+    border-radius: 10px;
+}
+.web {
+    color: #13BBFF;
+}
+.list ul {
+    display: flex;
+    gap: 90px;
+    margin-left: -70px;
+    font-size: 1.5vw;
+    transition: font-size 0.3s ease;
+}
+.list a:hover{
+    color: #13BBFF;
 }
