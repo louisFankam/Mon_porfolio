@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
 }
 .dev{
     font-family: "Lobster", sans-serif;
@@ -21,7 +23,7 @@ body {
     align-items: center;
     background-color: #242222;
     margin: 30px 60px 0 60px;
-    padding: 0 30px 0 30px;
+    padding: 10px 30px 10px 30px;
     border-radius: 10px;
 }
 .web {
@@ -39,4 +41,63 @@ body {
 }
 .list a:hover{
     color: #13BBFF;
+}
+.container{
+    display: flex;
+    justify-content: space-between;   
+}
+.image img{
+    height: 90vh;  
+    object-fit: cover; 
+}
+.presentation{
+    margin: 90px;
+}
+.bonjour{
+    font-size: 40px;
+}
+.bio{
+    font-size: 40px;
+}
+.blue_name{
+    font-size: 40px;
+    color: #13BBFF;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.div_icon{
+    margin-top: 15px;
+}
+.icone{
+    height: 40px;
+    margin-left: 10px;
+}
+.icone2{
+    height: 36px;
+}
+.button_downl{
+    margin-top: 20px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #151C21;
+    border-color: white;
+    border-radius: 20px;
+}
+.button_downl:hover{
+    color: #13BBFF;
+    border-color: #13BBFF;
+}
+
+.image{
+    height: auto;
+    
+}
+.image img{
+    height: 542px;
+    width: 500px;
 }
